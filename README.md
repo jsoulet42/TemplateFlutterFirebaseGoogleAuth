@@ -71,9 +71,9 @@ void someFunction() {
 Pour créer un nouveau projet à partir de ce template, procédez comme suit :
 
 Clonez le repository :
-
-git clone.
-
+```bash
+git clone
+```
 Modifiez les fichiers de configuration :
 
 Dans android/app/build.gradle.kts et android/settings.gradle.kts, mettez à jour le namespace et applicationId pour refléter le nouveau projet.
