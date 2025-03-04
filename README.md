@@ -84,18 +84,12 @@ Personnalisez votre code :
 Dans lib/main.dart, modifiez le contenu selon vos besoins.
 Utilisez le module lib/utils/logger.dart pour toutes vos opérations de log.
 Installation et Lancement
-Installation des dépendances :
-
-
-flutter pub get
-Nettoyage (optionnel mais recommandé lors des modifications majeures) :
-
-
+Installation des dépendances et Lancement de l'application  :
+```bash
 flutter clean
-Lancement de l'application :
-
-
+flutter pub get
 flutter run
+```
 Fichier google-services.json et Données Sensibles
 Le fichier google-services.json contient les informations de configuration de votre projet Firebase (comme l'ID du projet, le numéro de projet, les clés API, etc.). Pour des raisons de sécurité, ce fichier n'est pas inclus dans le repository.
 
