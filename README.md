@@ -14,6 +14,7 @@ Ce repository est une base de projet Flutter configurée pour intégrer Firebase
 - [Installation et Lancement](#installation-et-lancement)
 - [Fichier google-services.json et Données Sensibles](#fichier-google-servicesjson-et-données-sensibles)
 - [Bonnes Pratiques](#bonnes-pratiques)
+- [Version minimale de Flutter requise](#version-minimale-de-flutter-requise)
 
 ---
 
@@ -132,3 +133,19 @@ Les fichiers de configuration contiennent des commentaires en majuscules pour si
 
 Mise à jour des dépendances :
 Vérifiez régulièrement les versions des plugins et des dépendances pour éviter les incompatibilités et bénéficier des dernières fonctionnalités.
+
+---
+
+## Version minimale de Flutter requise
+
+Ce template utilise des fonctionnalités récentes de Flutter et nécessite une version minimale pour fonctionner correctement.
+
+### 📌 Version requise :
+- **Flutter 3.19.0** ou supérieur
+- **Dart 3.7.0** ou supérieur
+
+### 📋 Vérification de votre version de Flutter :
+Avant d'utiliser ce template, assurez-vous que vous avez la bonne version de Flutter installée. Vous pouvez vérifier votre version avec la commande suivante :
+
+```bash
+flutter --version
